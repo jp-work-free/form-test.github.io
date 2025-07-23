@@ -8,7 +8,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
        exit;
    }
 
-   $to = 'jp-work-free@yandex.ru';
+   $to = 'jeka.wild.work@gmail.com';
    $subject = 'Новый заказ обратного звонка';
    $message = "Имя: $name\nТелефон: $phone";
    if (mail($to, $subject, $message)) {
